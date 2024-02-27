@@ -1,6 +1,6 @@
 function Home(){
     return (
-        <p>Hi</p>
+        <p>Haiya, welcome home.</p>
     )
 }
 
