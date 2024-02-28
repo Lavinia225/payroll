@@ -35,11 +35,6 @@ function EmployeeList(){
         fetch("http://127.0.0.1:5000").then(r => r.json()).then(employees => setEmployees({employees, loading: false})).catch(e=>console.warn(e))
     }, [])
 
-   /* function handleSubmit(e: React.ChangeEvent<HTMLFormElement>){
-        e.preventDefault()
-        console.log(e)
-    }*/
-
     function findEmployees(employee: Employee){
         const searchString = formData.toLowerCase()
 
@@ -71,5 +66,3 @@ function EmployeeList(){
 }
 
 export default EmployeeList
-
-//Filter based on if searched letters are present in any part of the name
