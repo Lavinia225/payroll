@@ -45,3 +45,15 @@ a:hover {
     margin: auto;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.employee-list-searchbar {
+  margin: auto;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.employee-list-searchbar > label {
+  padding-bottom: 5px
+}
